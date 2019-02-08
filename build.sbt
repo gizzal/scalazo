@@ -1,8 +1,7 @@
 name := "akkahttp-quickstart"
-
 version := "0.1"
-
 scalaVersion := "2.12.6"
+enablePlugins(JavaAppPackaging)
 
 val akkaVersion = "2.5.13"
 val akkaHttpVersion = "10.1.3"
